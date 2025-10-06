@@ -1,0 +1,532 @@
+.wd-popup.wd-promo-popup{
+	background-color:#111111;
+	background-image: url(http://ferropartes.com.co/wp-content/uploads/2021/08/tools-popup.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position:center center;
+}
+
+.page-title-default{
+	background-color:rgb(22,27,137);
+	background-image: url(http://ferropartes.com.co/wp-content/uploads/2021/08/tools-page-title.jpg);
+	background-size:cover;
+	background-position:center center;
+}
+
+.footer-container{
+	background-color:rgb(187,14,14);
+}
+
+:root{
+--wd-text-font:"Poppins", Arial, Helvetica, sans-serif;
+--wd-text-font-weight:400;
+--wd-text-color:#777777;
+--wd-text-font-size:14px;
+}
+:root{
+--wd-title-font:"Poppins", Arial, Helvetica, sans-serif;
+--wd-title-font-weight:400;
+--wd-title-color:#242424;
+}
+:root{
+--wd-entities-title-font:"Poppins", Arial, Helvetica, sans-serif;
+--wd-entities-title-font-weight:400;
+--wd-entities-title-color:#333333;
+--wd-entities-title-color-hover:rgb(51 51 51 / 65%);
+}
+:root{
+--wd-alternative-font:"Poppins", Arial, Helvetica, sans-serif;
+}
+:root{
+--wd-widget-title-font:"Poppins", Arial, Helvetica, sans-serif;
+--wd-widget-title-font-weight:400;
+--wd-widget-title-transform:uppercase;
+--wd-widget-title-color:#333;
+--wd-widget-title-font-size:16px;
+}
+:root{
+--wd-header-el-font:"Poppins", Arial, Helvetica, sans-serif;
+--wd-header-el-font-weight:600;
+--wd-header-el-transform:none;
+--wd-header-el-font-size:13px;
+}
+:root{
+--wd-primary-color:rgb(187,14,14);
+}
+:root{
+--wd-alternative-color:rgb(177,177,177);
+}
+:root{
+--wd-link-color:#333333;
+--wd-link-color-hover:#242424;
+}
+.page .main-page-wrapper{
+	background-color:rgb(248,248,248);
+}
+
+:root{
+--btn-default-bgcolor:#f7f7f7;
+}
+:root{
+--btn-default-bgcolor-hover:#efefef;
+}
+:root{
+--btn-shop-bgcolor:rgb(187,14,14);
+}
+:root{
+--btn-shop-bgcolor-hover:rgb(226,0,0);
+}
+:root{
+--btn-accent-bgcolor:rgb(187,14,14);
+}
+:root{
+--btn-accent-bgcolor-hover:rgb(221,0,0);
+}
+:root{
+--notices-success-bg:#459647;
+}
+:root{
+--notices-success-color:#fff;
+}
+:root{
+--notices-warning-bg:rgb(177,177,177);
+}
+:root{
+--notices-warning-color:#fff;
+}
+	:root{
+	
+	
+			--wd-form-brd-radius: 0px;
+	
+	--wd-form-brd-width: 1px;
+
+	--btn-default-color: #333;
+	--btn-default-color-hover: #333;
+
+	--btn-shop-color: #fff;
+	--btn-shop-color-hover: #fff;
+
+	--btn-accent-color: #fff;
+	--btn-accent-color-hover: #fff;
+			--btn-default-brd-radius: 0px;
+		--btn-default-box-shadow: none;
+		--btn-default-box-shadow-hover: none;
+		--btn-default-box-shadow-active: none;
+		--btn-default-bottom: 0px;
+	
+	
+			--btn-accent-brd-radius: 0px;
+		--btn-accent-box-shadow: none;
+		--btn-accent-box-shadow-hover: none;
+		--btn-accent-box-shadow-active: none;
+		--btn-accent-bottom: 0px;
+	
+	
+			--btn-shop-bottom-active: -1px;
+		--btn-shop-brd-radius: 0.001px;
+		--btn-shop-box-shadow: inset 0 -2px 0 rgba(0, 0, 0, .15);
+		--btn-shop-box-shadow-hover: inset 0 -2px 0 rgba(0, 0, 0, .15);
+	
+	
+	
+	
+	
+	
+	
+	
+		}
+
+	
+	
+	/* Site width */
+		/* Header Boxed */
+	@media (min-width: 1025px) {
+		.whb-boxed:not(.whb-sticked):not(.whb-full-width) .whb-main-header {
+			max-width: 1270px;
+		}
+	}
+
+	.container {
+		max-width: 1300px;
+	}
+	
+	
+	@media (min-width: 1300px) {
+
+		[data-vc-full-width]:not([data-vc-stretch-content]) {
+			padding-left: calc((100vw - 1300px) / 2);
+			padding-right: calc((100vw - 1300px) / 2);
+		}
+
+		.platform-Windows [data-vc-full-width]:not([data-vc-stretch-content]) {
+			padding-left: calc((100vw - 1317px) / 2);
+			padding-right: calc((100vw - 1317px) / 2);
+		}
+	}
+
+	
+	/* Quick view */
+	div.wd-popup.popup-quick-view {
+		max-width: 920px;
+	}
+
+
+
+
+	.woodmart-woocommerce-layered-nav .wd-scroll-content {
+		max-height: 223px;
+	}
+
+@font-face {
+	font-weight: normal;
+	font-style: normal;
+	font-family: "woodmart-font";
+	src: url("//www.ferropartes.com.co/wp-content/themes/woodmart/fonts/woodmart-font.woff2?v=6.4.2") format("woff2");
+}
+
+.seo-block-home {
+    background: linear-gradient(#00000087,#00000091),transparent url(https://www.ferropartes.com.co/wp-content/uploads/2025/07/Ferreterias-Ferreterias-Medellin.jpg) center center/cover no-repeat fixed;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px 5%;
+}
+
+a.btn.btn-color-alt.btn-style-default.btn-style-rectangle.btn-size-small {
+    background-color: #bb0e0e;
+    margin-top: 8px;
+}
+
+legend.wpforms-field-label {
+    color: #fff !important;
+}
+
+label.wpforms-field-label {
+    color: #fff !important;
+}
+
+label.wpforms-field-sublabel.after {
+    color: #fff;
+}
+
+button#wpforms-submit-18516 {
+    background-color: #b70101;
+    text-transform: uppercase;
+    font-size: 11pt;
+}
+
+.labels-rounded .product-label {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px 7px;
+    min-height: 50px;
+    border-radius: 35px;
+    font-size: 14px;
+    display: none !important;
+}
+
+button#sendbtn\ wa-order-button-click {
+    background-color: #0a973f !important;
+    margin-top: -10px;
+}
+
+.labels-rounded .product-label {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px 7px;
+    min-height: 30px !important;
+    border-radius: 35px;
+    font-size: 14px;
+}
+
+.labels-rounded .out-of-stock {
+    max-width: 150px !important;
+    font-size: 9px !important;
+    background-color: #ef0000 !important;
+    color: #fff !important;
+}
+
+.woocommerce-product-gallery .labels-rounded .product-label {
+    min-width: 146px !important;
+    min-height: 30px !important;
+    background-color: #a40001 !important;
+    color: #fff !important;
+}
+
+.wd-toolbar.wd-toolbar-label-show {
+    display: none;
+}
+
+h4.info-box-title.title.wd-font-weight-.box-title-style-default.wd-fontsize-s {
+    font-weight: 700;
+}
+
+.category-grid-item .wd-entities-title {
+    margin-bottom: 0;
+    text-transform: uppercase;
+    font-size: 16px !important;
+    font-weight: 600;
+}
+
+a.btn.btn-color-default.btn-style-default.btn-style-rectangle.btn-size-default {
+    background-color: #bb0e0e;
+    color: #fff;
+}
+
+#wd-620fe66508d6c .woodmart-title-container {
+    line-height: 44px;
+    font-size: 22px !important;
+    font-weight: 800 !important;
+    text-transform: uppercase;
+}
+
+.wd-fontsize-xxl {
+    font-size: 30px;
+}
+
+h4.woodmart-title-container.title.wd-font-weight-.wd-fontsize-xxl {
+    font-weight: 700;
+}
+
+.gastosenvio {
+    font-size: 12pt;
+    font-weight: 700;
+    color: #000;
+    margin-top: -10px;
+}
+
+.wd-product-cats {
+    display: none;
+}
+
+.whb-sticky-header.whb-clone.whb-main-header.whb-hide-on-scroll.whb-sticked.whb-scroll-up {
+    display: none;
+}
+
+h5.widget-title {
+    font-weight: 700;
+}
+
+.summary-inner>.wd-action-btn {
+    margin-bottom: 20px;
+    margin-right: 20px;
+    vertical-align: middle;
+    display: none !important;
+}
+
+.wd-prefooter {
+    padding-bottom: 0px !important;
+    background-color: var(--wd-main-bgcolor);
+}
+
+.whb-general-header {
+    border-color: rgba(232, 232, 232, 1);
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    background-color: #bb0e0e !important;
+}
+
+.page-title.page-title-default.title-size-default.title-design-centered.color-scheme-light {
+    display: none;
+}
+
+.wd-prefooter {
+    padding-bottom: 0px;
+    background-color: var(--wd-main-bgcolor);
+}
+
+input.wpcf7-form-control.has-spinner.wpcf7-submit.btn-color-black {
+    background-color: #ef0000;
+    color: #fff;
+}
+
+.slider-title {
+    position: relative;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    text-align: left;
+    text-transform: uppercase;
+    font-size: 19px;
+    font-weight: 600;
+}
+
+.product_title {
+    font-size: 22px;
+    line-height: 1.2;
+    font-weight: 600;
+}
+
+.wd-header-mobile-nav .wd-tools-icon:before {
+    font-size: 24px;
+    content: "\f15a";
+    font-family: "woodmart-font";
+    color: #fff;
+}
+
+.wd-toolbar-shop .wd-tools-icon:before {
+    content: "\f146";
+    font-family: "woodmart-font";
+    color: #fff;
+}
+
+.wd-sidebar-opener.wd-on-shop>a:before {
+    font-size: 16px;
+    content: "\f118";
+    font-family: "woodmart-font";
+    color: #fff;
+}
+
+.wd-header-wishlist .wd-tools-icon:before {
+    font-size: 20px;
+    content: "\f106";
+    font-family: "woodmart-font";
+    color: #fff;
+}
+
+.wd-toolbar.wd-toolbar-label-show .wd-toolbar-label {
+    display: block;
+    color: #fff;
+}
+
+
+
+.widget_product_categories .widget-title {
+    margin-bottom: 10px;
+    font-weight: 700;
+    font-size: 11pt;
+}
+
+h4.woodmart-title-container.title.wd-font-weight-.wd-fontsize-l {
+    font-weight: 800;
+}
+
+.page-title.page-title-default.title-size-default.title-design-centered.color-scheme-light.wd-nav-accordion-mb-on.title-shop {
+    display: none;
+}
+
+a.btn.btn-color-default.btn-style-default.btn-style-rectangle.btn-size-default.btn-icon-pos-right {
+    background-color: #ef0000;
+    color: #fff;
+}
+
+.wd-tools-element .wd-tools-count {
+    position: absolute;
+    top: -5px;
+    right: -9px;
+    z-index: 1;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: rgb(255 0 0);
+    color: #fff;
+    text-align: center;
+    letter-spacing: 0;
+    font-weight: 400;
+    font-size: 9px;
+    line-height: 15px;
+}
+
+.wd-header-cart.wd-design-2 .wd-cart-number, .wd-header-cart.wd-design-5 .wd-cart-number {
+    position: absolute;
+    top: -5px;
+    right: -9px;
+    z-index: 1;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: rgb(255 0 0);
+    color: #fff;
+    text-align: center;
+    letter-spacing: 0;
+    font-weight: 400;
+    font-size: 9px;
+    line-height: 15px;
+}
+
+
+
+.searchform input[type="text"] {
+    padding-right: 50px;
+    height: 45px;
+    font-size: 13px;
+}
+
+.wd-search-cat>a>span {
+    overflow: hidden;
+    width: 100%;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    text-transform: none;
+}
+
+.searchform.wd-style-with-bg .searchsubmit {
+    right: 0;
+    width: 52px;
+    border-top-right-radius: var(--wd-form-brd-radius);
+    border-bottom-right-radius: var(--wd-form-brd-radius);
+    color: #fff;
+    background-color: rgb(52 47 47);
+}
+
+.wd-header-compare .wd-tools-icon:before {
+    font-size: 20px;
+    content: "\f128";
+    font-family: "woodmart-font";
+    color: #fff;
+}
+
+.wd-header-cart .wd-tools-icon:before {
+    font-size: 20px;
+    content: "\f105";
+    font-family: "woodmart-font";
+    color: #fff;
+}
+
+.wd-header-cart .wd-cart-subtotal .amount {
+    color: inherit;
+    font-weight: inherit;
+    font-size: inherit;
+    color: #fff;
+}
+
+.wd-header-my-account .wd-tools-icon:before {
+    font-size: 19px;
+    content: "\f124";
+    font-family: "woodmart-font";
+    color: #fff;
+}
+
+span.wd-tools-text {
+    color: #fff;
+}
+
+a.btn.btn-color-default.btn-style-default.btn-style-rectangle.btn-size-small {
+    background-color: #0a973f;
+    color: #fff;
+    text-transform: none;
+}
+
+.footer-container {
+    background-color: #bb0e0e !important;
+}@media (min-width: 577px) and (max-width: 767px) {
+	#wd-620fe66508d6c .woodmart-title-container {
+    line-height: 44px;
+    font-size: 15px !important;
+    font-weight: 800 !important;
+    text-transform: uppercase;
+}
+}
+
+@media (max-width: 576px) {
+	#wd-620fe66508d6c .woodmart-title-container {
+    line-height: 44px;
+    font-size: 15px !important;
+    font-weight: 800 !important;
+    text-transform: uppercase;
+}
+}
+
